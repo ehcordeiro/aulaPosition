@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: goldenrod;
+}
+
+/*por padrão a div vem com valor "static"
+ */
+
+.corpo{
+    position: relative;
+    top:  20vh;
+    right: -50vw;
+    border: solid;
+    height: 50vh;
+    width: 20vw;
+    background-color: green;
+    border-radius: 120px 120px 0 0;
+}
+
+.olho-direito{
+    position: absolute;
+    background-color: blue;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.olho-esquerdo{
+    position: absolute;
+    background-color: blue;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
